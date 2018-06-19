@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pgeon</title>
+
+    <link rel="stylesheet" href="css/external.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header/nav Bar -->
+    <header class="sans-serif">
+      <div>
+        <div class="mt3 ml50p pb5 pb6-m ">
+          <nav class="dt w-100 center">
+            <div class="dtc white fw4 v-mid pa3 center">
+              <img src="svg/pgeon_text_logo.svg" alt=''>
+            </div>
+            <div class="dtc v-mid tr pa3 mr3">
+              <a class="f6 fw4 hover-white no-underline white dn dib-ns pv2 ph4" href="/" >About</a>
+              <a class="f6 fw4 hover-white no-underline white dn dib-ns pv2 ph4" href="/" >Help/FAQ's</a>
+              <a class="f6 fw4 hover-white no-underline white dn dib-l pv2 ph4" href="/" >Contact</a>
+              <a class="f6 fw4 hover-white no-underline white dn dib-l pv2 ph4" href="/" >pricing</a>
+              <a class="f6 fw4 hover-white no-underline white dn dib-l pv2 ph4" href="/" >Login</a>
+              <a class="rectangle signup"  onclick='openNav()'>Sign Up</a>
+            </div>
+          </nav>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class='center_singup'>
+
+              <!-- SINGUP LINKS START -->
+              <a href="#home">
+                <div class='box'>
+                  <div class='box_twitter'>
+                    <img src="svg/twitter.svg" alt="Twitter">
+                    <p>Connect with Twitter</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#home">
+                <div class='box'>
+                  <div class='box_facebook'>
+                    <img src="svg/facebook-f.svg" alt="Facebook">
+                    <p>Connect with Facebook</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#home" class='box_email_link'>
+                <div class='box box_email'>
+                  Signup with Email
+                </div>
+              </a>
+              <!-- SIGNUP LINKS END -->
+              <div class='box_bottom'>
+                <p>
+                  Already have an Account? <span><a href="#home">Click Here</a></span>
+                </p>
+              </div>
+            </div>
+
+            <div class='bottom_url'>
+              <p>You can visit our mobile site at <span><a href="https://m.pgeon.com" alt='Pgeon Mobile site'>https://m.pgeon.com.</a></p>
+            </div>
+
+            <div class='sidenav_image'>
+              <img src="svg/large_bird.svg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Center Space -->
+    <div class='body-container'>
+      <div class='body-left'>
+        <div class="left-text-group">
+
+          <!-- Left Header -->
+          <div class='left-text1'>
+            <p>Discover Popular Opinions</p>
+          </div>
+          <div class='left-text2'>
+            <p>A mobile-web application that helps influencers better communcate with their audiences</p>
+          </div>
+
+          <!-- Text me Box -->
+          <div>
+            <div class='text-box'>
+              <p>Get the link via text message</p>
+            </div>
+            <div>
+              <form id='country' class='formating'>
+                <select id="selectCountry" class='country'>
+                  <option value="+1">US +1</option>
+                </select>
+              <input id="telNo" name="telNo" type="tel" class='telephone' placeholder='(111) 111-1111'>
+              </form>
+              <div id='textLink' class='text_link'>
+                <a href="#home">
+                  <p>Text Me The Link</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='body-right'>
+        <div class='image-group'>
+          <div class='right_image1'>
+            <img src="svg/iphone.svg" alt="Iphone image">
+          </div>
+          <div class='respond_image'>
+            <img src='svg/respond.svg' alt"vote image" class='image_spacing'>
+            <div class='image_text'>
+              <p>Respond</p>
+            </div>
+          </div>
+          <div class='vote_image'>
+            <img src='svg/vote.svg' alt"vote image" class='image_spacing'>
+            <div class='image_text'>
+              <p>Vote</p>
+            </div>
+          </div>
+          <div class='earn_image'>
+            <img src='svg/earn.svg' alt"vote image" class='image_spacing'>
+            <div class='image_text'>
+              <p>Earn Points</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer/Social Icons -->
+    <div class='footer'>
+      <div class='footer_placement'>
+        <div class='social_link'>
+          <ul>
+            <li><a href="/"><img src="svg/facebook-f.svg" alt="facebook Icon"></a></li>
+            <li><a href="/"><img src="svg/twitter.svg" alt="Twiiter"></a></li>
+            <li><a href="/"><img src="svg/medium-m.svg" alt="Medium"></a></li>
+          </ul>
+        </div>
+        <div class='copywrite'>
+          <div class='copywrite_title'>
+            <p>2018 Pgeon </p>
+          </div>
+          <div class='terms'>
+            <a href="/">Terms and Conditions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Use of JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/app.js'></script>
+  </body>
+</html>
